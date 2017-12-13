@@ -1,0 +1,22 @@
+  <ion-header>
+  <ion-navbar>
+    <ion-title>
+      Setvices states
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p> Services Up </p>
+  <ion-list no-line inset>
+    <ion-item ion-item *ngFor="let up of listupclass">
+      {{ up }} <ion-icon item-end name="checkmark-circle"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <p>Services Down </p>
+  <ion-list no-line inset>
+    <ion-item ion-item *ngFor="let down of listdownclass">
+      {{ down }}<ion-icon item-end name="close-circle"></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>

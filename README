@@ -1,0 +1,9 @@
+sudo pacman -S install nodejs
+sudo pacman -S install npm
+sudo npm install -g ionic
+sudo npm install -g cordova
+
+// à la racine de l'appli
+npm install
+ionic serve // lance l'appli dans le navigateur
+ionic cordova run android // lance l'appli sur ton device connecté

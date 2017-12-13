@@ -1,0 +1,7 @@
+sudo pacman -S install nodejs
+sudo pacman -S install npm
+sudo npm install -g ionic
+sudo npm install -g cordova
+
+// dans le dossier de l'appli
+npm install 

@@ -1,0 +1,8 @@
+{
+  "name": "clientiot",
+  "app_id": "88f7bddc",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
